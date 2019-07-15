@@ -19,7 +19,6 @@ const int d7 = 8;
 LiquidCrystal lcd(rs, enable, d4, d5, d6, d7);
 
 void setup() {
- Serial.begin(9600);
  lcd.begin();
  lcd.print("I love Arduino");
 }
